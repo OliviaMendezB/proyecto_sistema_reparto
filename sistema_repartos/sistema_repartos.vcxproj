@@ -189,6 +189,7 @@
     <ClInclude Include="Envio.hpp" />
     <ClInclude Include="Moto.hpp" />
     <ClInclude Include="PaqueteNormal.hpp" />
+    <ClInclude Include="PaqueteUrgente.hpp" />
     <ClInclude Include="Vehiculo.hpp" />
   </ItemGroup>
   <ItemGroup>
