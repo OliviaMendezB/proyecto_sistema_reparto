@@ -178,7 +178,8 @@
   <ItemGroup>
     <ClCompile Include="Envio.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="moto.cpp" />
+    <ClCompile Include="Moto.cpp" />
+    <ClCompile Include="PaqueteNormal.cpp" />
     <ClCompile Include="Vehiculo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -186,7 +187,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Envio.hpp" />
-    <ClInclude Include="moto.hpp" />
+    <ClInclude Include="Moto.hpp" />
     <ClInclude Include="PaqueteNormal.hpp" />
     <ClInclude Include="Vehiculo.hpp" />
   </ItemGroup>
