@@ -19,3 +19,6 @@ void PaqueteUrgente::mostrar() const {
 int PaqueteUrgente::prioridadCarga() const { return 2 + prioridad; }
 std::string PaqueteUrgente::tipo() const { return "URGENTE"; }
 int PaqueteUrgente::getPrioridad() const { return prioridad; }
+
+
+
