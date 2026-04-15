@@ -178,6 +178,7 @@
   <ItemGroup>
     <ClCompile Include="Envio.cpp" />
     <ClCompile Include="Furgoneta.cpp" />
+    <ClCompile Include="GestorLogistica.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Moto.cpp" />
     <ClCompile Include="PaqueteNormal.cpp" />
