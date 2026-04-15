@@ -181,6 +181,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Moto.cpp" />
     <ClCompile Include="PaqueteNormal.cpp" />
+    <ClCompile Include="paqueteUrgente.cpp" />
     <ClCompile Include="Vehiculo.cpp" />
   </ItemGroup>
   <ItemGroup>
