@@ -188,6 +188,7 @@
     <ClInclude Include="Vehiculo.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Paquetes.txt" />
     <Text Include="vehiculos.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
