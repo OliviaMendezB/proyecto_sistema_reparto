@@ -185,6 +185,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Envio.hpp" />
+    <ClInclude Include="PaqueteNormal.hpp" />
     <ClInclude Include="Vehiculo.hpp" />
   </ItemGroup>
   <ItemGroup>
