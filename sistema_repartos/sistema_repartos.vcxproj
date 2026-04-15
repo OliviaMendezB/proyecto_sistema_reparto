@@ -178,6 +178,7 @@
   <ItemGroup>
     <ClCompile Include="Envio.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Vehiculo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
