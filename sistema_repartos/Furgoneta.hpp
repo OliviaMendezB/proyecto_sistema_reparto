@@ -10,7 +10,6 @@ public:
 
     bool cargar(Envio* e) override;
     void mostrar() const override;
-    void mostrar(bool mostrarCarga) const override;
 };
 
 #endif
