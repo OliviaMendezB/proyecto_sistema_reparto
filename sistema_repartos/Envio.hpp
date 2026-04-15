@@ -16,7 +16,6 @@ public:
     virtual ~Envio();
 
     virtual void mostrar() const = 0;
-    virtual void mostrar(bool detallado) const = 0;  // Sobrecarga
     virtual int prioridadCarga() const = 0;
     virtual std::string tipo() const = 0;
 
