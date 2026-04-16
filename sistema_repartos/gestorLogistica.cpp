@@ -6,7 +6,6 @@
 #include <fstream>
 #include <iostream>
 #include <algorithm>
-#include <map>
 #include <stdexcept>
 
 using namespace std;
