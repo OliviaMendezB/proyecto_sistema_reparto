@@ -230,18 +230,6 @@ void GestorLogistica::mostrarEstadisticas() const {
     cout << "Vehiculos en sistema: " << vehiculos.size() << endl;
 }
 
-// Métodos con referencias
-void GestorLogistica::mostrarEnvio(const Envio& e) const {
-    cout << "Mostrando envio por referencia: ";
-    e.mostrar();
-    cout << endl;
-}
-
-void GestorLogistica::procesarVehiculo(const Vehiculo& v) const {
-    cout << "Procesando vehiculo por referencia: ";
-    v.mostrar();
-}
-
 // Getters
 const std::vector<Envio*>& GestorLogistica::getEnvios() const {
     return envios;

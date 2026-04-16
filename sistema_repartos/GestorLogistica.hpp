@@ -32,10 +32,6 @@ public:
     void recogidaManual();
     void mostrarEstadisticas() const;
 
-    // Métodos con referencias
-    void mostrarEnvio(const Envio& e) const;
-    void procesarVehiculo(const Vehiculo& v) const;
-
     // Getters
     const std::vector<Envio*>& getEnvios() const;
     const std::vector<Vehiculo*>& getVehiculos() const;
