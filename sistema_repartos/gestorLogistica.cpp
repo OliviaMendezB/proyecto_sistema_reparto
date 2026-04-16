@@ -230,7 +230,7 @@ void GestorLogistica::mostrarEstadisticas() const {
     cout << "Vehiculos en sistema: " << vehiculos.size() << endl;
 }
 
-// Getters
+
 const std::vector<Envio*>& GestorLogistica::getEnvios() const {
     return envios;
 }

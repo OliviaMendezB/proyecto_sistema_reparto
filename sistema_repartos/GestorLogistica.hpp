@@ -32,7 +32,7 @@ public:
     void recogidaManual();
     void mostrarEstadisticas() const;
 
-    // Getters
+    
     const std::vector<Envio*>& getEnvios() const;
     const std::vector<Vehiculo*>& getVehiculos() const;
 };
