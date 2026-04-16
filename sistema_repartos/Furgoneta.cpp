@@ -9,9 +9,9 @@ Furgoneta::~Furgoneta() {}
 
 bool Furgoneta::cargar(Envio* e) {
     if (e == nullptr) return false;
-    if (e->getCP() != cp) return false;
-    if (!tieneEspacio()) return false;
-    if (e->estaCargado()) return false;
+    else if (e->getCP() != cp) return false;
+    else if (!tieneEspacio()) return false;
+    else if (e->estaCargado()) return false;
 
     carga.push_back(e);
     e->setCargado(true);
